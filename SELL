@@ -1,0 +1,68 @@
+getgenv().petsGoConfig = {
+DISCORD_ID = "885836894032764968",
+    PLAZA_WEBHOOK_URL = "https://discord.com/api/webhooks/1317270139699331102/eeLmrgK9Cu01Bw24KrI1ko6_Li544YH_HQydOvLJfwhod25JSgQmLNW_jd1-WM2yN0N4",
+    MAIL_GEM_WEBHOOK_URL = "https://discord.com/api/webhooks/1317270494784913529/yuQKSonqBUXYLJFj34eVH6vgsuD5VbG7oevlZ9MqMuStCVP0KVORo4r_eQSqS1NXhYf9",
+
+    -- Plaza hop delay will reset if someone purchase something.
+    PLAZA_HOP_DELAY = 30,  -- (minutes) If no one purchase, server hop
+
+    SELL_10M_PET = false,  -- true/false, enable selling 10m+ pets
+    SELL_10M_PET_MIN = 10,  -- 1-5000 Minimum Quantity to sell
+    SELL_PERCENTAGE_10M = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP (Example: 100k RAP config 0.9 = Sell For 90k Gems)
+
+    SELL_25M_PET = false,  -- true/false, enable selling 25m+ pets
+    SELL_PERCENTAGE_25M = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_50M_PET = false,  -- true/false, enable selling 50m+ pets
+    SELL_PERCENTAGE_50M = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_100M_PET = true,  -- true/false, enable selling 100m+ pets (excluding huge/secrets)
+    SELL_PERCENTAGE_100M = 0.8,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_500M_PET = true,  -- true/false, enable selling 500m+ pets (excluding huge/secrets)
+    SELL_PERCENTAGE_500M = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_HUGE = true,  -- true/false, enable selling huges
+    SELL_SECRET = true,  -- true/false, enable selling secrets
+    SELL_PERCENTAGE_HUGE = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_PERCENTAGE_SECRET = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_POTION = true,  -- true/false (only sell insta luck 4)
+    SELL_POTION_MIN = 10,  -- 1-5000 Minimum Quantity to sell [Doesn't apply to God Potion]
+    SELL_POTION_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_GOD_POTION = true,  -- true/false
+    SELL_GOD_POTION_PERCENTAGE = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_EGG = true,  -- true/false
+    SELL_HUGE_EGG = true, -- true/false
+    SELL_HYPE_EGG = true, -- true/false
+    SELL_EGG_MIN = 5,  -- [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
+    SELL_EGG_PERCENTAGE = 0.9,   
+
+    SELL_KEY = true,  -- true/false, enable selling crystal/secret keys
+    SELL_KEY_MIN = 10,  -- 1-5000 Minimum Quantity to sell
+    SELL_KEY_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_KEY_LOWER = true,  -- true/false, enable selling lower crystal key
+    SELL_KEY_UPPER = true,  -- true/false, enable selling upper crystal key
+
+    SELL_BAIT = true,  -- true/false, enable selling exclusive fishing bait
+    SELL_BAIT_MIN = 10,  -- 1-5000 Minimum Quantity to sell
+    SELL_BAIT_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_CHEST = true,  -- true/false, enable selling exclusive treasure chest
+    SELL_CHEST_MIN = 10,  -- 1-5000 Minimum Quantity to sell
+    SELL_CHEST_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+
+    SELL_GIFT_BAG = true,  -- true/false, enable selling exclusive treasure chest
+    SELL_GIFT_BAG_MIN = 1, 
+    SELL_GIFT_BAG_PERCENTAGE = 0.9, 
+
+    SELL_FISHING_ROD = true,  -- true/false, enable selling fishing rods
+    SELL_FISHING_ROD_PERCENTAGE = 0.9, 
+
+    MAIL_GEMS_USERNAME = "HBT_OEtt3pIhwA",  -- Empty = Disabled Gem Mail
+    MAIL_GEMS_MIN = 5000000,  -- Minimum gems required to send
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/edafbc84006c0897b76b0d07cef3fe41.lua"))()
