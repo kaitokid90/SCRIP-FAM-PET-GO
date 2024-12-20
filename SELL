@@ -22,7 +22,7 @@ DISCORD_ID = "885836894032764968",
     SELL_500M_PET = true,  -- true/false, enable selling 500m+ pets (excluding huge/secrets)
     SELL_PERCENTAGE_500M = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
-    SELL_HUGE = true,  -- true/false, enable selling huges
+    SELL_HUGE = false,  -- true/false, enable selling huges
     SELL_SECRET = true,  -- true/false, enable selling secrets
     SELL_PERCENTAGE_HUGE = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
     SELL_PERCENTAGE_SECRET = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
