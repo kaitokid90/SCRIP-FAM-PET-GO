@@ -5,8 +5,8 @@ getgenv().petsGoConfig = {
     CONSUME_EVENT_GIFT_BAG = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1317276654149828669/d7B3wmjc3_VVmv0sizpIGsvWgHJ9lJ7lqGNvnT8n9OkEUqz54p8O5V2Vcel9yjXO24qT",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1317276654149828669/d7B3wmjc3_VVmv0sizpIGsvWgHJ9lJ7lqGNvnT8n9OkEUqz54p8O5V2Vcel9yjXO24qT",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     DISCORD_ID = "885836894032764968",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 500000000, -- Minimum Pet Odds To Trigger Webhook
 
@@ -19,4 +19,4 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = "eCBCdEgaLEx" -- Mail Pet To Username
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc60be08b11698b7ec7e93b479c5cf34.lua"))()
