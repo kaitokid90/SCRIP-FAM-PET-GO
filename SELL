@@ -36,7 +36,7 @@ DISCORD_ID = "885836894032764968",
 
     SELL_EGG = true,  -- true/false
     SELL_HUGE_EGG = true, -- true/false
-    SELL_HYPE_EGG = true, -- true/false
+    SELL_HYPE_EGG = false, -- true/false
     SELL_EGG_MIN = 5,  -- [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
     SELL_EGG_PERCENTAGE = 0.9,   
 
