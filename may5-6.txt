@@ -3,7 +3,7 @@ getgenv().petsGoConfig = {
     -- true will open event gift bag/egg
     -- false will auto mail gift bag/egg
     CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = false, -- Hype eggs not included
+    CONSUME_EVENT_EGG = true, -- Hype eggs not included
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319764557123555358/LPLguXvSUWAmB1M6t6qc3mnIKCeZpOzI0zEaCnsxzeZAq52AAiLlzT6vhSACKJ-Hh7au",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319764557123555358/LPLguXvSUWAmB1M6t6qc3mnIKCeZpOzI0zEaCnsxzeZAq52AAiLlzT6vhSACKJ-Hh7au",
