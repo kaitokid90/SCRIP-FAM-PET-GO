@@ -24,7 +24,7 @@ DISCORD_ID = "885836894032764968",
 
     SELL_HUGE = true,  -- true/false, enable selling huges
     SELL_SECRET = true,  -- true/false, enable selling secrets
-    SELL_PERCENTAGE_HUGE = 1.2,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_PERCENTAGE_HUGE = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
     SELL_PERCENTAGE_SECRET = 1.2,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_POTION = true,  -- true/false (only sell insta luck 4)
