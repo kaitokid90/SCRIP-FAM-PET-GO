@@ -61,6 +61,9 @@ DISCORD_ID = "885836894032764968",
     SELL_FISHING_ROD = true,  -- true/false, enable selling fishing rods
     SELL_FISHING_ROD_PERCENTAGE = 0.9, 
 
+    SELL_PICKAXE = true,
+    SELL_PICKAXE_PERCENTAGE = 1,
+
     SELL_SCROLL = true,
     SELL_SCROLL_PERCENTAGE = 0.9,
 
