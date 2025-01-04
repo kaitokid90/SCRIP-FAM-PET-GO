@@ -38,7 +38,7 @@ DISCORD_ID = "885836894032764968",
     SELL_HUGE_EGG = true, -- true/false
     SELL_HYPE_EGG = true, -- true/false
     SELL_EGG_MIN = 5,  -- [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
-    SELL_EGG_PERCENTAGE = 0.9,   
+    SELL_EGG_PERCENTAGE = 1,   
 
     SELL_KEY = true,  -- true/false, enable selling crystal/secret keys
     SELL_KEY_MIN = 10,  -- 1-5000 Minimum Quantity to sell
