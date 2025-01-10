@@ -19,7 +19,7 @@ getgenv().petsGoConfig = {
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 500000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 500000000,  -- Minimum Pet Odds To Mail
-    USERNAME_TO_MAIL = "tjcceBejmPm" -- Mail Pet To Username
+    USERNAME_TO_MAIL = {"uoFmWJpWTpv"} -- Mail Pet To Username
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5653ca0a4685e7d4268329988eefdb21.lua"))()
