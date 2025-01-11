@@ -2,10 +2,12 @@ getgenv().petsGoConfig = {
     -- Event config
     -- true will open event gift bag/egg
     -- false will auto mail gift bag/egg
-    CONSUME_ALL_MINING_CHEST = true,
     CONSUME_CORRUPTED_HUGE_BAIT = true,
+    CONSUME_ALL_ENCHANT_SAFE = true,
+    CONSUME_ALL_MINING_CHEST = true,
     CONSUME_EVENT_GIFT_BAG = true,
     CONSUME_EVENT_EGG = true, -- Hype eggs not included
+
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
     MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
@@ -14,7 +16,7 @@ getgenv().petsGoConfig = {
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg	
 
-    PICKAXE_ENCHANTS = {"Criticals", "Loot", "Speed", "Strength", "Chests", "Diamonds", "Huges", "Lightning", "TNT"},
+    PICKAXE_ENCHANTS = {"Speed", "Strength"},
     
     
     MAILING = true,  -- Auto mail   
