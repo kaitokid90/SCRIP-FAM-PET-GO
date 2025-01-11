@@ -54,6 +54,10 @@ DISCORD_ID = "885836894032764968",
     SELL_CHEST_MIN = 10,  -- 1-5000 Minimum Quantity to sell
     SELL_CHEST_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
+    SELL_ENCHANT_SAFE = true,  -- true/false
+    SELL_ENCHANT_SAFE_MIN = 5, 
+    SELL_ENCHANT_SAFE_PERCENTAGE = 0.9,  
+
     SELL_GIFT_BAG = true,  -- true/false, enable selling exclusive treasure chest
     SELL_GIFT_BAG_MIN = 1, 
     SELL_GIFT_BAG_PERCENTAGE = 0.9, 
