@@ -16,7 +16,7 @@ getgenv().petsGoConfig = {
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg	
 
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Chests"},
+    PICKAXE_ENCHANTS = {"Chests", "Strength", "Speed"},
     
     
     MAILING = true,  -- Auto mail   
