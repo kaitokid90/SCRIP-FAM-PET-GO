@@ -52,7 +52,7 @@ DISCORD_ID = "885836894032764968",
 
     SELL_CHEST = true,  -- true/false, enable selling exclusive treasure chest
     SELL_CHEST_MIN = 10,  -- 1-5000 Minimum Quantity to sell
-    SELL_CHEST_PERCENTAGE = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_CHEST_PERCENTAGE = 0.8,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_ENCHANT_SAFE = true,  -- true/false
     SELL_ENCHANT_SAFE_MIN = 5, 
@@ -69,7 +69,7 @@ DISCORD_ID = "885836894032764968",
     SELL_PICKAXE_PERCENTAGE = 0.7,
 
     SELL_SCROLL = true,
-    SELL_SCROLL_PERCENTAGE = 0.9,
+    SELL_SCROLL_PERCENTAGE = 0.8,
 
     MAIL_GEMS_USERNAME = "HBT_OEtt3pIhwA",  -- Empty = Disabled Gem Mail
     MAIL_GEMS_MIN = 20000000,  -- Minimum gems required to send
