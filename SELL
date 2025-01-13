@@ -4,7 +4,7 @@ DISCORD_ID = "885836894032764968",
     MAIL_GEM_WEBHOOK_URL = "https://discord.com/api/webhooks/1317270494784913529/yuQKSonqBUXYLJFj34eVH6vgsuD5VbG7oevlZ9MqMuStCVP0KVORo4r_eQSqS1NXhYf9",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 30,  -- (minutes) If no one purchase, server hop
+    PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
 
     SELL_10M_PET = false,  -- true/false, enable selling 10m+ pets
     SELL_10M_PET_MIN = 10,  -- 1-5000 Minimum Quantity to sell
@@ -20,12 +20,12 @@ DISCORD_ID = "885836894032764968",
     SELL_PERCENTAGE_100M = 0.8,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_500M_PET = true,  -- true/false, enable selling 500m+ pets (excluding huge/secrets)
-    SELL_PERCENTAGE_500M = 0.9,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_PERCENTAGE_500M = 0.8,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_HUGE = true,  -- true/false, enable selling huges
     SELL_SECRET = true,  -- true/false, enable selling secrets
     SELL_PERCENTAGE_HUGE = 1,  -- 1 = 100% RAP, 0.8 = 80% RAP
-    SELL_PERCENTAGE_SECRET = 1.3,  -- 1 = 100% RAP, 0.8 = 80% RAP
+    SELL_PERCENTAGE_SECRET = 1.1,  -- 1 = 100% RAP, 0.8 = 80% RAP
 
     SELL_POTION = true,  -- true/false (only sell insta luck 4)
     SELL_POTION_MIN = 10,  -- 1-5000 Minimum Quantity to sell [Doesn't apply to God Potion]
@@ -63,10 +63,10 @@ DISCORD_ID = "885836894032764968",
     SELL_GIFT_BAG_PERCENTAGE = 0.9, 
 
     SELL_FISHING_ROD = true,  -- true/false, enable selling fishing rods
-    SELL_FISHING_ROD_PERCENTAGE = 0.9, 
+    SELL_FISHING_ROD_PERCENTAGE = 1, 
 
     SELL_PICKAXE = true,
-    SELL_PICKAXE_PERCENTAGE = 0.9,
+    SELL_PICKAXE_PERCENTAGE = 0.7,
 
     SELL_SCROLL = true,
     SELL_SCROLL_PERCENTAGE = 0.9,
