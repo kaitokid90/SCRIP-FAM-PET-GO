@@ -4,8 +4,8 @@ DISCORD_ID = "885836894032764968",
     MAIL_GEM_WEBHOOK_URL = "https://discord.com/api/webhooks/1317270494784913529/yuQKSonqBUXYLJFj34eVH6vgsuD5VbG7oevlZ9MqMuStCVP0KVORo4r_eQSqS1NXhYf9",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
-    BOOTH_RESET_DELAY = 7,  -- (minutes) force reset booth (Reset RAP Prices)
+    PLAZA_HOP_DELAY = 15,  -- (minutes) If no one purchase, server hop
+    BOOTH_RESET_DELAY = 12,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {""},  -- serverhop when it finds username
     
     -- Pets
