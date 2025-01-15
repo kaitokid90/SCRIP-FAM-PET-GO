@@ -8,7 +8,7 @@ DISCORD_ID = "885836894032764968",
     
     -- Pets
     SELL_100M_PET = true, SELL_PERCENTAGE_100M = 0.8,
-    SELL_500M_PET = false, SELL_PERCENTAGE_500M = 0.8,    
+    SELL_500M_PET = true, SELL_PERCENTAGE_500M = 0.8,    
     SELL_HUGE = true,  -- true/false, enable selling huges
     SELL_SECRET = true,  -- true/false, enable selling secrets
     SELL_PERCENTAGE_HUGE = 0.8,  -- 1 = 100% RAP, 0.8 = 80% RAP
