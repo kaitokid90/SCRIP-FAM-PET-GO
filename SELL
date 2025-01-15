@@ -5,7 +5,7 @@ DISCORD_ID = "885836894032764968",
 
     -- Plaza hop delay will reset if someone purchase something.
     PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
-    BOOTH_RESET_DELAY = 20,  -- (minutes) force reset booth (Reset RAP Prices)
+    BOOTH_RESET_DELAY = 10,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {"TuQuynhrkwv48311","PhuongQuyenahhv55889","CamHanhclac82721","PhuongQuynheguh62308","GiaHanlnzn01444","CamLinhtlxk15186","ThuyNgaqtiu46083","HienMaiyxmj38981","ThucUyenoftx61145","XuanLoanlfef90344","KimXuanfnsh50481","HuongThuymsaw83962","BinhMinhxerp74778","ThanhThuyqdmf09366","KimTuyetempl52108"},  -- serverhop when it finds username
     
     -- Pets
