@@ -33,13 +33,13 @@ DISCORD_ID = "885836894032764968",
     SELL_HYPE_EGG = true, -- true/false
     
     -- Keys
-    SELL_KEY = false, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 0.7,
-    SELL_KEY_LOWER = false,  -- true/false, enable selling lower crystal key
-    SELL_KEY_UPPER = false,  -- true/false, enable selling upper crystal key
+    SELL_KEY = true, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 0.7,
+    SELL_KEY_LOWER = true,  -- true/false, enable selling lower crystal key
+    SELL_KEY_UPPER = true,  -- true/false, enable selling upper crystal key
 
     -- Tools
     SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 1, 
-    SELL_PICKAXE = false, SELL_PICKAXE_PERCENTAGE = 0.7,
+    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 0.7,
     MAIL_GEMS_USERNAME = "HBT_OEtt3pIhwA",  -- Empty = Disabled Gem Mail
     MAIL_GEMS_MIN = 20000000,  -- Minimum gems required to send
 }
