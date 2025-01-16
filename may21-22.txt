@@ -15,7 +15,7 @@ getgenv().petsGoConfig = {
     WEBHOOK_ODDS = 800000000, -- Minimum Pet Odds To Trigger Webhook
 
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg	
-    MINE_ALL_ORES = true,
+    MINE_ALL_ORES = false,
 
     PICKAXE_ENCHANTS = {"Speed", "Loot"},
     
