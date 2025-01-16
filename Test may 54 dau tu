@@ -9,8 +9,8 @@ getgenv().petsGoConfig = {
     CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
-    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1329373851053719582/OzlU6yhuVKH7s8-mtVAB3NuzUxqkxo1AMq3MHq6IwRkCE8h7hinM7Dj02bETIzB9-NXH",
+    MAILING_WEBHOOK_URL = "https://discord.com/api/webhooks/1329373851053719582/OzlU6yhuVKH7s8-mtVAB3NuzUxqkxo1AMq3MHq6IwRkCE8h7hinM7Dj02bETIzB9-NXH",
     DISCORD_ID = "885836894032764968",  -- Required!!! (For public-webhook)
     WEBHOOK_ODDS = 300000000, -- Minimum Pet Odds To Trigger Webhook
 
