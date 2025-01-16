@@ -6,7 +6,7 @@ getgenv().petsGoConfig = {
     CONSUME_ALL_ENCHANT_SAFE = true,
     CONSUME_ALL_MINING_CHEST = false,
     CONSUME_EVENT_GIFT_BAG = true,
-    CONSUME_EVENT_EGG = true, -- Hype eggs not included
+    CONSUME_EVENT_EGG = false, -- Hype eggs not included
 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1319761068008149095/OHmPh-mzBb17TBNXXdhjLkJadsaweMFR2c53BsZQ_YwkJjaBGjvRcJVmlqfjPIBm9KWa",
@@ -17,11 +17,11 @@ getgenv().petsGoConfig = {
     DIAMOND_EGG = true,  -- true = Diamond Egg, false = F2P Egg	
     MINE_ALL_ORES = true,
 
-    PICKAXE_ENCHANTS = {"Speed", "Strength", "Chests"},
+    PICKAXE_ENCHANTS = {"Speed", "Loot"},
     
     
     MAILING = true,  -- Auto mail   
-    MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
+    MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_WEBHOOK_ODDS = 800000000, -- Minimum Pet Odds To Trigger MAIL Webhook
     MAIL_PET_ODDS = 800000000,  -- Minimum Pet Odds To Mail
     USERNAME_TO_MAIL = {"PhuongQuynheguh62308"} -- Mail Pet To Username
