@@ -39,7 +39,7 @@ DISCORD_ID = "885836894032764968",
 
     -- Tools
     SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 1, 
-    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 1,
+    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 1.4,
     MAIL_GEMS_USERNAME = {"HBT_OEtt3pIhwA"}, -- Empty = Disabled Gem Mail
     MAIL_GEMS_MIN = 20000000,  -- Minimum gems required to send
 }
